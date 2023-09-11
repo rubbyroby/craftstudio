@@ -1,0 +1,168 @@
+.EG {
+    border: 2px solid;
+    border-color: #6d6d6d;
+    border-radius: 18px;
+    height: 310px;
+    position: relative;
+    width: 400px;
+    margin: 1rem ;    
+    transition: background-color 0.5s, color 0.5s; /* Transition en douceur */
+
+    
+}
+
+.EG .zigzag {
+    height: 12px;
+    left: 20px;
+    position: absolute;
+    top: 220px;
+    width: 70px;
+}
+
+.EG .row {
+    left: 140px;
+    position: absolute;
+    top: 263px;
+    width: 33px;
+}
+
+.EG .step {
+    color: #6d6d6d;
+    font-family: Regular;
+    font-size: 15px;
+    font-weight: 400;
+    left: 20px;
+    letter-spacing: 0.4px;
+    line-height: normal;
+    position: absolute;
+    top: 90px;
+    white-space: nowrap;
+}
+
+.EG .continue {
+    color: #6d6d6d;
+    font-family: Medium;
+    font-size: 20px;
+    font-weight: 600;
+    left: 20px;
+    letter-spacing: 0.93px;
+    line-height: normal;
+    position: absolute;
+    top: 250px;
+}
+
+.EG .langue {
+    color: #6d6d6d;
+    font-family: Medium;
+    font-size: 23px;
+    font-weight: 400;
+    left: 300px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 27px;
+}
+
+.EG .choix {
+    color: #cecece;
+    font-family: Medium;
+    font-size: 24px;
+    font-weight: 600;
+    left: 20px;
+    letter-spacing: 0.47px;
+    line-height: normal;
+    position: absolute;
+    top: 100px;
+}
+
+.EG .flag {
+    height: 40px;
+    left: 20px;
+    position: absolute;
+    top: 20px;
+    width: 50px;
+    opacity: 0.7;
+}
+
+.tarns.carte_cliquee {
+    background-color: white !important;
+  }
+  
+.trans.carte_cliquee p {
+    color: black !important;
+  }
+
+.trans :hover{
+    background-color: white;
+    cursor: pointer ;
+    
+}
+.trans :hover .choix{
+    color: black;
+}
+
+.trans :hover .flag{
+    opacity: 1;
+}
+
+
+ /*      media queries(regular devices)    */
+
+ @media screen and (max-width: 1024px) {
+    .slogan{
+    
+    }
+    
+    }
+    
+    /*      media queries(small devices)    */
+@media screen and (max-width: 600px) {
+    .EG {
+      width: 320px; /* Définissez la largeur de la carte pour les écrans étroits */
+      height: 260px; /* Définissez la hauteur de la carte pour les écrans étroits */
+    }
+  
+    .EG .zigzag {
+      height: 8px; /* Redimensionnez la hauteur du zigzag */
+      width: 50px; /* Redimensionnez la largeur du zigzag */
+      top: 170px;
+    }
+  
+    .EG .row {
+      left: 100px; /* Ajustez la position du groupe */
+      width: 25px; /* Redimensionnez la largeur du groupe */
+      left: 120px;
+      top: 200px;
+    }
+  
+    .EG .step {
+      font-size: 12px; /* Redimensionnez la taille de police */
+      left: 18px; /* Ajustez la position */
+      top: 85px; /* Ajustez la position verticale */
+    }
+  
+    .EG .continue {
+      font-size: 16px; /* Redimensionnez la taille de police */
+      left: 20px; /* Ajustez la position */
+      top: 210px; /* Ajustez la position verticale */
+    }
+  
+    .EG .langue {
+      font-size: 20px; /* Redimensionnez la taille de police */
+      left: 230px; /* Ajustez la position */
+      top: 26px; /* Ajustez la position verticale */
+    }
+  
+    .EG .choix {
+      font-size: 18px; /* Redimensionnez la taille de police */
+      left: 20px; /* Ajustez la position */
+      top: 90px; /* Ajustez la position verticale */
+    }
+  
+    .EG .flag {
+      height: 40px; /* Redimensionnez la hauteur du drapeau */
+      width: 50px; /* Redimensionnez la largeur du drapeau */
+      top: 0px;
+    }
+  }
+  

@@ -1,0 +1,23 @@
+/*de haut vers le bas*/
+.slide_in{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgb(29, 28, 28);
+    transform-origin: bottom;
+}
+
+
+/*de bas vers le haut*/
+.slide_out{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgb(43, 140, 74);
+    transform-origin: top;
+}
+

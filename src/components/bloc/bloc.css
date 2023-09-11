@@ -1,0 +1,50 @@
+.container_lgsg {
+  flex: 1;
+  padding-right: 15rem;
+  background-image: url(../../assets/bg.jpg);
+  position: relative; /* Ajout de la position relative au conteneur parent */
+}
+
+.container_lgsg .lg {
+  width: 4rem;
+  position: relative;
+  padding: 20px;
+}
+
+.container_lgsg .sg {
+  position: absolute; /* Changement en position absolue */
+  left: 0;
+  bottom: 0; /* Position en bas du conteneur parent */
+  margin: 20px;
+  width: 150px;
+}
+
+/* Media queries (medium devices) */
+
+@media screen and (max-width: 1024px) {
+  .lg {
+    width: 50%;
+  }
+  .container_lgsg {
+    padding-right: 0;
+  }
+}
+
+/* Media queries (small devices) */
+
+@media screen and (max-width: 600px) {
+  .sg {
+    position: absolute;
+    top: auto; /* Supprimez la propriété top pour que le slogan soit en bas */
+    bottom: 0; /* Position en bas du conteneur parent */
+    left: 50%; /* Par exemple, le centrer horizontalement */
+    width: 50px;
+  }
+  .container_lgsg {
+    padding-right: 80px;
+  }
+  .lg {
+    
+    width: 20%;
+  }
+}

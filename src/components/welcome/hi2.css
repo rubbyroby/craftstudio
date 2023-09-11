@@ -1,0 +1,114 @@
+
+  .container_hi {
+    background-color: var(--color-bg);
+    display: grid; /* Utilisez seulement cette déclaration */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.1rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    
+  }
+  
+
+  
+  .global .container_hi_logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10rem;
+    margin-left: 100px;
+    right: 20rem;
+    position: relative;
+  }
+  
+  .logo {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    margin: 20px;
+  }
+
+  .logo img {
+    width: 50px;
+
+  }
+  
+ .slogan {
+ 
+  }
+
+  .slogan img {
+    align-self: flex-end; /* Slogan en bas */
+    left: 600px; /* Slogan au milieu horizontalement */
+    width: 20rem;
+    position: relative;
+    top: 700px;
+  }
+  
+  .carte_langue {
+    display: flex;
+    flex-direction: row; /* Les cartes de langue sont côte à côte */
+    align-items: center;
+    gap: 7px; /* Espacement entre les cartes de langue */
+    margin-top: 10rem;
+    margin-left: 5rem;
+  }
+  
+  /* Les styles spécifiques à chaque carte de langue (.en, .fr, .ar) peuvent être ajoutés ici */
+  
+  /* Exemple de style pour chaque carte de langue */
+  .en, .fr, .ar {
+    /* Vos styles spécifiques à chaque carte de langue ici */
+    margin: 5px;
+  }
+
+  .carte-cliquee {
+    background-color: white;
+  }
+
+
+
+ /* Hello */
+
+
+ /*      media queries(regular devices)    */
+
+@media screen and (max-width: 1024px) {
+.slogan{
+
+}
+
+}
+
+/*      media queries(small devices)    */
+
+@media screen and (max-width: 600px){
+  
+  .container_hi {
+    align-items: center; /* Centrez le contenu verticalement */
+    width: 800px;
+    padding-bottom: 1000px;
+    
+  }
+
+  .slogan img {
+    left: 12rem; /* Réinitialisez la position horizontale */
+    margin: 20px auto; /* Centrez horizontalement */
+    top: 115rem; /* Réinitialisez la position verticale */
+    width: 300px;
+  }
+
+  .carte_langue {
+    flex-direction: column; /* Cartes empilées les unes sur les autres */
+    gap: 10px; /* Espacement entre les cartes de langue */
+    align-items: center; /* Centrez les cartes horizontalement */
+    margin-top: 13rem;
+    margin-right: 6rem;
+    width: 550px;
+  }
+  
+  
+}

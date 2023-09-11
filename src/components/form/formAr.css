@@ -1,0 +1,177 @@
+
+input {
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 80%; /* modifier la longueur de l'input*/
+    background: none;
+    border-color: var(--color-font-body);
+    color: white;
+    font-size: regular;
+}
+input:focus {
+    outline: none; /* Supprime la bordure lorsqu'un champ est en cours d'édition */
+    font-size: regular;
+  }
+
+#blok{
+    margin-top: 2rem;
+}
+
+body{
+    
+    color: var(--color-font-body);
+    
+}
+/*     buttons styles          */
+
+.button {
+    color: var(--colro-title-button);
+    border-radius: 17px;
+    margin: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background: none;
+    border-color: var(--color-title-button);
+    border: 1px solid;
+    cursor: pointer;
+    
+    
+}
+
+.buttoncss{
+    color: var(--color-bg);
+    background-color: var(--color-font-body);
+    border-radius: 17px;
+    border: #226f63;
+    width: 7rem;
+    height: 37px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+    }
+    
+    /* Style for the button after it's clicked */
+.click {
+    background-color: #226f63; /* Green color */
+    color: white;
+    }
+
+input#regular.button.click{
+    border-color: #226f63;
+}
+
+.sizebutton{
+    margin-top: 0.6rem;
+    
+}
+
+.sizebutton input{
+    border: 1px solid white;
+    border-radius: 17px;
+    margin: 5px;
+    width: auto;
+    padding: 3px;
+    padding-left: 13px;
+    padding-right: 13px;
+    
+}
+
+button:hover{
+    background-color: #226f63;
+    color: white;
+    border-color: #226f63;
+}
+
+/*        fin style button              */
+
+span{
+    font-size: small;
+}
+
+.topspan{
+    padding-top: 0.3rem;
+
+}
+
+.line{
+    width: 40%;
+}
+
+.container_form_ar {
+    flex: 2; /* Utilisez flex pour définir la largeur relative à 2/3 */
+    padding-right: 12rem;
+    padding-left: 15px;
+    padding-top: 7rem; /* Espacement intérieur pour le composant */
+    background-color: var(--color-bg);
+    padding-bottom: 2rem;
+    direction: rtl;
+    
+}
+
+
+h5{
+    font-family: regular;
+    font-size: medium;
+    margin-top: 5rem;
+}
+
+h5 a {
+    text-decoration: none !important ;
+    color: var(--color-font-body);
+}
+
+
+
+/*      media queries(regular devices)    */
+
+@media screen and (max-width: 1024px) {
+    .container_form_ar{
+        padding-top: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 1rem;
+    
+        }
+    
+        input{
+            width: 100%;
+        }
+    
+        body {
+            font-size: large;
+        }
+        .line{
+            width: 30%;
+        }
+
+        label{
+            font-size: regular;
+        }
+}
+
+/*      media queries(small devices)    */
+
+@media screen and (max-width: 600px){
+    .container_form_ar{
+    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+
+    }
+
+    input{
+        width: 100%;
+    }
+
+    body {
+        font-size: x-small;
+    }
+    .line{
+        width: 40%;
+    }
+    
+}
+

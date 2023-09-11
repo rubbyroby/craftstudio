@@ -1,0 +1,130 @@
+.container_logo {
+ background-color: var(--color-bg);
+  position: relative;
+  padding-top: 2px;
+  padding-bottom: 11px;
+  
+  }
+  
+
+  .map {
+    grid-column: 2; /* Colonne de droite */
+    grid-row: span 2; /* S'étend sur deux rangées */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Styles pour votre carte */
+  }
+
+  .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 36vh;
+    background-color: var(--color-bg);
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+
+  .wave{
+    width: 1490px;
+    display: flex; /* Utilisez la disposition flexbox */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    position: relative; /* Assurez-vous que la première image a également une position relative */
+    z-index: 1;
+    margin-bottom: 0;
+  }
+
+  .craft{
+    font-family: Bold;
+    font-size: 220px;
+    top: 90px;
+    position: absolute; /* Utilisez une position absolue pour positionner la deuxième image */
+    z-index: 0;
+    color: #1c1b1b;
+    opacity: 0.5;
+  }
+
+  .card{
+    font-family: Medium;
+    margin-bottom: 4.5rem;    
+  }
+
+  .card h1{
+    font-size: 3.94rem;
+    text-align: center; /* Centre le texte à l'intérieur du conteneur */
+    line-height: 1.2;
+    margin-bottom: 0;
+  }
+
+  .card p{
+    text-align: center; /* Centre le texte à l'intérieur du conteneur */
+    padding-bottom: 50px;
+    
+  }
+
+
+  
+
+  /*      media queries(medium devices)    */
+  
+  @media screen and (max-width: 1024px) {
+      
+  }
+  
+  /* Media queries pour les petits appareils (max-width: 600px) */
+@media screen and (max-width: 600px) {
+  .map {
+    grid-column: auto; /* Réinitialise la valeur de grid-column */
+    grid-row: auto; /* Réinitialise la valeur de grid-row */
+    justify-content: flex-start; /* Aligne le contenu au début */
+    align-items: flex-start; /* Aligne le contenu au début */
+    margin-left: 0; /* Réinitialise la marge gauche */
+    margin-right: 0; /* Réinitialise la marge droite */
+  }
+
+  .card {
+    margin-left: 1rem; /* Ajoute une marge à gauche */
+    margin-right: 1rem; /* Ajoute une marge à droite */
+    margin-top: 1rem; /* Ajoute une marge en haut */
+    padding: 1rem; /* Ajoute un padding */
+  }
+
+  .wave {
+    width: 100%; /* Prend la largeur totale de l'écran */
+    position: absolute; /* Position absolue par rapport à son conteneur */
+    bottom: 0; /* Position en bas du conteneur */
+  }
+
+  .container_logo .craft {
+    font-size: 70px; /* Réduit la taille de la police */
+    top: 50px; /* Ajuste la position verticale */
+    padding-top: 20px;
+  }
+
+  .card h1 {
+    font-size: 2rem; /* Réduit la taille du titre h1 */
+    line-height: 1.2;
+  }
+
+  .card p {
+    padding-bottom: 20px; /* Réduit l'espacement en bas du paragraphe */
+  }
+  .container_logo{
+    padding-bottom: 25rem;
+    padding-top: 70px
+  }
+  .container_logo .craft{
+    top: 300px;
+  }
+  .container_logo .wave{
+    bottom: 400px; /* Position en bas du conteneur */
+
+  }
+}
+
+
