@@ -96,7 +96,6 @@
 
   .wave {
     width: 100%; /* Prend la largeur totale de l'écran */
-    position: absolute; /* Position absolue par rapport à son conteneur */
     bottom: 0; /* Position en bas du conteneur */
   }
 
