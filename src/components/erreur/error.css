@@ -1,0 +1,22 @@
+img{
+    width: 80%;
+    left: 7rem;
+    position: absolute;
+    top: 2rem;
+}
+
+.back{
+    background-color: #212121 ;
+    width: 100%; /* Largeur à 100% de la fenêtre */
+    height: 100vh; /* Hauteur à 100% de la hauteur de la fenêtre (viewport) */
+  
+}
+
+@media screen and (max-width: 600px){
+    img{
+       width: 100%;
+       left: 0; 
+       top: 12rem;
+    }
+
+}

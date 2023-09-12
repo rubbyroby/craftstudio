@@ -6,6 +6,7 @@ import ThankEn from "./components/thank/ThankEn"
 import ThankFr from "./components/thank/ThankFr"
 import ThankAr from "./components/thank/ThankAr"
 import Welcome from '../src/components/welcome/Hi'
+import Error from './components/erreur/Erreur'
 import './App.css'
 
 import { AnimatePresence } from "framer-motion"
@@ -27,6 +28,7 @@ export default function App() {
         <Route path="/Thankyou" element={<ThankEn/>} />
         <Route path="/Merci" element={<ThankFr/>} />
         <Route path="/شكرا" element={<ThankAr/>} />
+        <Route path="*" element={<Error/>} />
       </Routes>
       </BrowserRouter>
       </AnimatePresence>
