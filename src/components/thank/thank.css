@@ -125,6 +125,13 @@
     bottom: 400px; /* Position en bas du conteneur */
 
   }
+  .card .wave{
+    top: 200px;
+      }
+    
+      .card .text{
+    top: 0px;
+      }
 }
 
 

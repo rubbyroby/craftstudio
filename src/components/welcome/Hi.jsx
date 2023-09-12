@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useMemo } from "react";
+import React from "react";
 import Ar from "./Ar";
 import En from "./En";
 import Fr from "./Fr";
@@ -10,16 +10,10 @@ import transition from '../../transition'
 
 export const Carts = () => {
 
-
   return (
     <div className="global">
       
-
-
-
        <div className="container_hi">
-
-        
 
             <div className="slogan" >
             <img alt="Slogan" src={SG} />
@@ -31,10 +25,6 @@ export const Carts = () => {
             </div>
             
           <div className="container_hi_logo">
-
-          
-
-
             
           </div>
       </div>
@@ -42,11 +32,9 @@ export const Carts = () => {
             <div className="logo">
               <img  alt="Logo" src={LG} />
             </div>
-            
-  
-    
+               
     </div>
   );
 };
 
-export default transition(Carts) ;
+export default transition(Carts);

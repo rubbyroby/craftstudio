@@ -1,80 +1,84 @@
+body{
+  background-color: var(--color-bg);
+}
 
-  .container_hi {
-    background-color: var(--color-bg);
-    display: grid; /* Utilisez seulement cette déclaration */
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0.1rem;
-    justify-content: space-between;
-    align-items: flex-start;
-    height: 100vh;
-    position: relative;
-    width: 100%;
-    
-  }
+.container_hi {
   
+  display: grid; /* Utilisez seulement cette déclaration */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.1rem;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100vh;
+  position: relative;
+  width: 100%;
 
-  
-  .global .container_hi_logo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 10rem;
-    margin-left: 100px;
-    right: 20rem;
-    position: relative;
-  }
-  
-  .logo {
-    position: absolute;
-    top: -10px;
-    left: 0;
-    margin: 20px;
-  }
-
-  .logo img {
-    width: 50px;
-
-  }
-  
- .slogan {
- 
-  }
-
-  .slogan img {
-    align-self: flex-end; /* Slogan en bas */
-    left: 600px; /* Slogan au milieu horizontalement */
-    width: 20rem;
-    position: relative;
-    top: 700px;
-  }
-  
-  .carte_langue {
-    display: flex;
-    flex-direction: row; /* Les cartes de langue sont côte à côte */
-    align-items: center;
-    gap: 7px; /* Espacement entre les cartes de langue */
-    margin-top: 10rem;
-    margin-left: 5rem;
-  }
-  
-  /* Les styles spécifiques à chaque carte de langue (.en, .fr, .ar) peuvent être ajoutés ici */
-  
-  /* Exemple de style pour chaque carte de langue */
-  .en, .fr, .ar {
-    /* Vos styles spécifiques à chaque carte de langue ici */
-    margin: 5px;
-  }
-
-  .carte-cliquee {
-    background-color: white;
-  }
+}
 
 
 
- /* Hello */
+.global .container_hi_logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10rem;
+  margin-left: 100px;
+  right: 20rem;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: -10px;
+  left: 0;
+  margin: 20px;
+}
+
+.logo img {
+  width: 50px;
+
+}
+
+.slogan {
+
+}
+
+.slogan img {
+  align-self: flex-end; /* Slogan en bas */
+  left: 600px; /* Slogan au milieu horizontalement */
+  width: 20rem;
+  position: relative;
+  top: 700px;
+  margin-bottom: 30px;
+}
+
+.carte_langue {
+  display: flex;
+  flex-direction: row; /* Les cartes de langue sont côte à côte */
+  align-items: center;
+  gap: 7px; /* Espacement entre les cartes de langue */
+  margin-top: 10rem;
+  margin-left: 5rem;
+}
+
+/* Les styles spécifiques à chaque carte de langue (.en, .fr, .ar) peuvent être ajoutés ici */
+
+/* Exemple de style pour chaque carte de langue */
+.en, .fr, .ar {
+  /* Vos styles spécifiques à chaque carte de langue ici */
+  margin: 5px;
+}
+
+.carte-cliquee {
+  background-color: white;
+}
 
 
- /*      media queries(regular devices)    */
+
+/* Hello */
+
+
+/*      media queries(regular devices)    */
 
 @media screen and (max-width: 1024px) {
 .slogan{
@@ -85,38 +89,54 @@
 
 /*      media queries(small devices)    */
 
-@media screen and (max-width: 600px){
-  
-  .container_hi {
-    align-items: center; /* Centrez le contenu verticalement */
-   
-  }
+@media screen and (max-width: 600px) {
+/* Styles pour les écrans de largeur maximale de 600px (y compris iPhone X) */
 
-  .slogan img {
-    left: 8rem; /* Réinitialisez la position horizontale */
-    margin: 20px auto; /* Centrez horizontalement */
-    top: 48rem; /* Réinitialisez la position verticale */
-    width: 200px;
-  }
-
-  .carte_langue {
-    flex-direction: column; /* Cartes empilées les unes sur les autres */
-    gap: 10px; /* Espacement entre les cartes de langue */
-    align-items: center; /* Centrez les cartes horizontalement */
-    margin-top: 0;
-    margin-left: 0;
-    width: 420px;
-    
-    justify-content: space-evenly; /* Centrez les cartes verticalement */
-
-  }
-
-  .slogan .carte_langue{
-    margin-top: -50px;
-  }
-   .slogan{
-    width: 100%;
-   }
-  
-  
+.container_hi {
+  align-items: center; /* Centrez le contenu verticalement */
+  height: 100vh;
+  margin-left: 20px;
+  right: 20px;
+  top: 25px;
 }
+
+.slogan img {
+  left: 6.5rem; /* Réinitialisez la position horizontale */
+  margin: 20px auto; /* Centrez horizontalement */
+  top: 48rem; /* Réinitialisez la position verticale */
+  width: 200px;
+  margin-bottom: 30px;
+  bottom: 20px;
+}
+
+.carte_langue {
+  flex-direction: column; /* Cartes empilées les unes sur les autres */
+  gap: 10px; /* Espacement entre les cartes de langue */
+  align-items: center; /* Centrez les cartes horizontalement */
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 410px;
+  justify-content: space-evenly; /* Centrez les cartes verticalement */
+}
+
+.slogan .carte_langue {
+  margin-top: -50px;
+}
+
+.slogan {
+  width: 100%;
+}
+
+/* Styles spécifiques à l'iPhone X (375x812) */
+@media only screen and (max-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  /* Ajoutez ici les styles spécifiques à l'iPhone X */
+
+  /* Par exemple, ajustez la taille du texte pour l'iPhone X */
+  .container_hi {
+    font-size: 16px;
+  }
+
+  /* Ajustez d'autres styles au besoin */
+}
+}
+

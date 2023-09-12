@@ -153,7 +153,8 @@ h5 a {
 
 @media screen and (max-width: 600px){
     .container_form{
-    
+    width: 100%;
+    font-size: large;
  
     
     }
