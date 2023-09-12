@@ -125,8 +125,8 @@
 @media screen and (max-width: 600px) {
     .AR {
         direction: rtl;
-        width: 320px; /* Définissez la largeur de la carte pour les écrans étroits */
-        height: 260px; /* Définissez la hauteur de la carte pour les écrans étroits */
+        width: 260px; /* Définissez la largeur de la carte pour les écrans étroits */
+        height: 200px; /* Définissez la hauteur de la carte pour les écrans étroits */
       
     }
   
@@ -134,45 +134,45 @@
       height: 8px; /* Redimensionnez la hauteur du zigzag */
       width: 50px; /* Redimensionnez la largeur du zigzag */
       right: 15px;
-      top: 170px;
+      top: 130px;
     }
   
     .AR .row {
       left: 100px; /* Ajustez la position du groupe */
       width: 25px; /* Redimensionnez la largeur du groupe */
-      top: 201px;
-      left: 200px;
+      top: 153px;
+      left: 155px;
     }
   
     .AR .step {
       font-size: 12px; /* Redimensionnez la taille de police */
       right: 15px; /* Ajustez la position */
-      top: 85px; /* Ajustez la position verticale */
+      top: 70px; /* Ajustez la position verticale */
     }
   
     .AR .continue {
-      font-size: 16px; /* Redimensionnez la taille de police */
+      font-size: 13px; /* Redimensionnez la taille de police */
       right: 15px; /* Ajustez la position */
-      top: 210px; /* Ajustez la position verticale */
+      top: 165px; /* Ajustez la position verticale */
     }
   
     .AR .langue {
-      font-size: 19px; /* Redimensionnez la taille de police */
+      font-size: 16px; /* Redimensionnez la taille de police */
       left: 20px; /* Ajustez la position */
-      top: 26px; /* Ajustez la position verticale */
+      top: 24px; /* Ajustez la position verticale */
     }
   
     .AR .choix {
-      font-size: 18px; /* Redimensionnez la taille de police */
+      font-size: 14px; /* Redimensionnez la taille de police */
       left: 10px; /* Ajustez la position */
-      top: 95px; /* Ajustez la position verticale */
+      top: 85px; /* Ajustez la position verticale */
       line-height: 1.6;
       right: 15px;
     }
   
     .AR .flag {
-      height: 40px; /* Redimensionnez la hauteur du drapeau */
-      width: 50px; /* Redimensionnez la largeur du drapeau */
+      height: 30px; /* Redimensionnez la hauteur du drapeau */
+      width: 40px; /* Redimensionnez la largeur du drapeau */
       right: 15px;
       top: 0px;
     }

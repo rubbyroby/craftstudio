@@ -89,26 +89,34 @@
   
   .container_hi {
     align-items: center; /* Centrez le contenu verticalement */
-    width: 800px;
-    padding-bottom: 1000px;
-    
+   
   }
 
   .slogan img {
-    left: 12rem; /* Réinitialisez la position horizontale */
+    left: 8rem; /* Réinitialisez la position horizontale */
     margin: 20px auto; /* Centrez horizontalement */
-    top: 115rem; /* Réinitialisez la position verticale */
-    width: 300px;
+    top: 48rem; /* Réinitialisez la position verticale */
+    width: 200px;
   }
 
   .carte_langue {
     flex-direction: column; /* Cartes empilées les unes sur les autres */
     gap: 10px; /* Espacement entre les cartes de langue */
     align-items: center; /* Centrez les cartes horizontalement */
-    margin-top: 13rem;
-    margin-right: 6rem;
-    width: 550px;
+    margin-top: 0;
+    margin-left: 0;
+    width: 420px;
+    
+    justify-content: space-evenly; /* Centrez les cartes verticalement */
+
   }
+
+  .slogan .carte_langue{
+    margin-top: -50px;
+  }
+   .slogan{
+    width: 100%;
+   }
   
   
 }

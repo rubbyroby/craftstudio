@@ -118,50 +118,50 @@
     /*      media queries(small devices)    */
 @media screen and (max-width: 600px) {
     .FR {
-      width: 320px; /* Définissez la largeur de la carte pour les écrans étroits */
-      height: 260px; /* Définissez la hauteur de la carte pour les écrans étroits */
+      width: 260px; /* Définissez la largeur de la carte pour les écrans étroits */
+      height: 200px; /* Définissez la hauteur de la carte pour les écrans étroits */
      }
   
     .FR .zigzag {
       height: 8px; /* Redimensionnez la hauteur du zigzag */
       width: 50px; /* Redimensionnez la largeur du zigzag */
-      top: 170px;
+      top: 130px;
     }
   
     .FR .row {
       left: 100px; /* Ajustez la position du groupe */
       width: 25px; /* Redimensionnez la largeur du groupe */
       left: 120px;
-      top: 200px;
+      top: 153px;
     }
   
     .FR .step {
       font-size: 12px; /* Redimensionnez la taille de police */
       left: 18px; /* Ajustez la position */
-      top: 85px; /* Ajustez la position verticale */
+      top: 70px; /* Ajustez la position verticale */
     }
   
     .FR .continue {
-      font-size: 16px; /* Redimensionnez la taille de police */
+      font-size: 13px; /* Redimensionnez la taille de police */
       left: 20px; /* Ajustez la position */
-      top: 210px; /* Ajustez la position verticale */
+      top: 165px; /* Ajustez la position verticale */
     }
   
     .FR .langue {
-      font-size: 19px; /* Redimensionnez la taille de police */
-      left: 220px; /* Ajustez la position */
-      top: 26px; /* Ajustez la position verticale */
+      font-size: 16px; /* Redimensionnez la taille de police */
+      left: 170px; /* Ajustez la position */
+      top: 24px; /* Ajustez la position verticale */
     }
   
     .FR .choix {
-      font-size: 18px; /* Redimensionnez la taille de police */
+      font-size: 14px; /* Redimensionnez la taille de police */
       left: 20px; /* Ajustez la position */
-      top: 90px; /* Ajustez la position verticale */
+      top: 80px; /* Ajustez la position verticale */
     }
   
     .FR .flag {
-      height: 40px; /* Redimensionnez la hauteur du drapeau */
-      width: 50px; /* Redimensionnez la largeur du drapeau */
+      height: 30px; /* Redimensionnez la hauteur du drapeau */
+      width: 40px; /* Redimensionnez la largeur du drapeau */
       top: 0;
     }
   }

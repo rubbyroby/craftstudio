@@ -155,11 +155,9 @@ h5 a {
 
 @media screen and (max-width: 600px){
     .container_form_ar{
-    padding-top: 1rem;
-    padding-left: 3rem;
-    padding-right: 2rem;
-    padding-bottom: 1rem;
-
+    
+        font-size: large;
+    
     }
 
     input{
@@ -172,6 +170,6 @@ h5 a {
     .line{
         width: 40%;
     }
-    
+
 }
 
