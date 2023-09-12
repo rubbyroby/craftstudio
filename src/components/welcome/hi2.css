@@ -30,13 +30,14 @@ body{
 .logo {
   position: absolute;
   top: -10px;
-  left: 0;
+  left: -10px;
   margin: 20px;
 }
 
 .logo img {
   width: 50px;
-
+  left: 0;
+  top: 0;
 }
 
 .slogan {
@@ -50,6 +51,7 @@ body{
   position: relative;
   top: 700px;
   margin-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 .carte_langue {

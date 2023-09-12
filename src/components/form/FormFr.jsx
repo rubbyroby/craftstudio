@@ -4,10 +4,6 @@ import './form.css';
 import { useNavigate } from 'react-router-dom';
 
 
-
-
-
-
 function App({ backgroundColor }) {
   const [selectedOptionsLangue, setSelectedOptionsLangue] = useState([]);
   const [selectedOptionsClient, setSelectedOptionsClient] = useState([]);
@@ -15,8 +11,6 @@ function App({ backgroundColor }) {
   const [isSubmitClicked, setIsSubmitClicked] = useState(false);
   const navigate = useNavigate();
   const [userName, setUserName] = useState(''); // État local pour stocker le nom de l'utilisateur
-
-
 
   const handleButtonClickLangue = (option) => {
     if (selectedOptionsLangue.includes(option)) {
@@ -138,18 +132,6 @@ function App({ backgroundColor }) {
       console.error("Erreur lors de l'envoi des données à Google Sheets :", error);
     }
   };
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -477,7 +459,8 @@ function App({ backgroundColor }) {
           <button type='submit' id='semibold' className={`buttoncss ${isSubmitClicked ? 'click' : ''}`} >Envoyer</button>
           </article>
           <div>
-          <h5>Si vous avez des difficultés à decriver votre conception de logo, n'hésitez pas à nous contacter à l'adresse suivante <a href="mailto:hey@wecraftstudio.com">hey@wecraftstudio.com</a> </h5>
+          <h5>Si vous avez des difficultés à decriver votre conception de logo, n'hésitez pas à nous contacter à l'adresse suivante
+            <br /> <a href="mailto:hey@wecraftstudio.com">hey@wecraftstudio.com</a> </h5>
           </div>
      </form>
     </div>

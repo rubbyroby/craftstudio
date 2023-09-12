@@ -478,7 +478,8 @@ function App({ backgroundColor }) {
           <button type='submit' id='semibold' className={`buttoncss ${isSubmitClicked ? 'click' : ''}`} >Sent</button>
           </article>
           <div>
-          <h5>If you have any difficulty describing your logo design, please feel free to contact us at the following address <a href="mailto:hey@wecraftstudio.com">hey@wecraftstudio.com</a> </h5>
+          <h5>If you have any difficulty describing your logo design, please feel free to contact us at the following address
+            <br /> <a href="mailto:hey@wecraftstudio.com">hey@wecraftstudio.com</a> </h5>
           </div>
      </form>
     </div>

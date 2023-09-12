@@ -7,8 +7,10 @@
 
 .container_lgsg .lg {
   width: 4rem;
-  position: relative;
+  position: absolute;
   padding: 20px;
+  left: 0;
+  top: 0;
 }
 
 .container_lgsg .sg {
@@ -17,6 +19,7 @@
   bottom: 0; /* Position en bas du conteneur parent */
   margin: 20px;
   width: 150px;
+  top: 83rem;
 }
 
 /* Media queries (medium devices) */
@@ -33,18 +36,20 @@
 /* Media queries (small devices) */
 
 @media screen and (max-width: 600px) {
-  .sg {
+  .container_lgsg .sg {
+    display: none;
     position: absolute;
-    top: auto; /* Supprimez la propriété top pour que le slogan soit en bas */
+    top: 85rem; /* Supprimez la propriété top pour que le slogan soit en bas */
     bottom: 0; /* Position en bas du conteneur parent */
-    left: 50%; /* Par exemple, le centrer horizontalement */
-    width: 50px;
+    width: 70%;
+    left: -10px;
   }
   .container_lgsg {
-    padding-right: 80px;
+    
+    position: relative;
   }
   .lg {
-    
+    display: none;
     width: 20%;
   }
   .container_lgsg .sg img{

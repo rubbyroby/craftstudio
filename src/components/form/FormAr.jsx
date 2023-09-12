@@ -486,7 +486,8 @@ function App({ backgroundColor }) {
           <div>
           <h5>
           
-إذا كان لديك أي صعوبة في وصف تصميم الشعار الخاص بك، فلا تتردد في الاتصال بنا على العنوان التالي  <a href="mailto:hey@wecraftstudio.com">hey@wecraftstudio.com</a> </h5>
+إذا كان لديك أي صعوبة في وصف تصميم الشعار الخاص بك، فلا تتردد في الاتصال بنا على العنوان التالي 
+<br /> <a href="mailto:hey@wecraftstudio.com">hey@wecraftstudio.com</a> </h5>
           </div>
      </form>
     </div>

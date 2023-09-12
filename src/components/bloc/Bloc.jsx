@@ -6,7 +6,7 @@ import BG from '../../assets/bg.jpg'
 
 const Bloc = () => {
 
-  const imageUrl = {BG};
+  
 
 
   return (
